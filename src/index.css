@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-orange: #FF6B00;
+    --brand-orange-hover: #FF851B;
+    --brand-orange-dark: #D95700;
+    --brand-bg: #090A0C;
+    --brand-surface: #111216;
+    --brand-card: #15171D;
+    --brand-border: #272A34;
+    --brand-border-bright: #3D4252;
+  }
+
+  body {
+    background-color: #090A0C;
+    color: #F3F4F6;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom dark scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #090A0C;
+}
+::-webkit-scrollbar-thumb {
+  background: #272A34;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF6B00;
+}
+
+/* Glow & Accent utilities */
+.orange-glow {
+  box-shadow: 0 0 24px -4px rgba(255, 107, 0, 0.4);
+}
+.orange-glow-sm {
+  box-shadow: 0 0 12px -2px rgba(255, 107, 0, 0.3);
+}
+.orange-border-glow:focus {
+  border-color: #FF6B00;
+  box-shadow: 0 0 0 2px rgba(255, 107, 0, 0.25);
+}
+
