@@ -1,0 +1,6 @@
+{
+  "name": "249 iPhone Store",
+  "description": "Black and orange high-contrast online storefront for 249 iPhone Store with real product photos and direct messaging for live phone pricing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
